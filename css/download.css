@@ -1,0 +1,157 @@
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('../image/download-background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+  header{
+      overflow: hidden;
+  }
+
+  header img{
+      display: block;
+      width: 2.37rem;
+      height: .27rem;
+      margin: .6rem 0  .15rem .71rem;
+  }
+
+  header span{
+     font: .18rem/.18rem "";
+     color: #fff;
+     margin: .15rem 0 0 1rem;
+  }
+
+  main img {
+      display: block;
+      width: 100%;
+      height: 2.9rem;
+      margin-top: .14rem;
+  }
+
+  footer span{
+      display: block;
+      width: 2.85rem;
+      text-align: center;
+      height: .44rem;
+      margin: .51rem 0 0 .46rem;
+      background-image: url('../image/downlocd-APP.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font: .17rem/.44rem "";
+    color: #E8B751;
+  }
+
+
+  /* 判断是微信打开时候的 微信弹框 */
+  .weixin-tip {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    /* filter: alpha(opacity=80); */
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .weixin-tip p {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 14%;
+    padding: 0 5%;
+  }
+
+/* ios下载提示 */
+.kuangbox{
+    width: 750px;
+    height: 100%;
+    display: none;
+}
+.kuangblock{
+    width: 750px;
+    height: 100%;
+    background:rgba(0,0,0,1);
+    opacity:0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.kuang{
+    width: 638px;
+    height: 750px;
+    display: inline-block;
+    background: url(../image/bg_download.png) no-repeat;
+    background-size: 638px 750px;
+    position: absolute;
+    top: 164px;
+    left: 56px; 
+}
+.text_kuang{
+    width: 638px;
+    height: 750px;
+    padding-top: 80px;
+}
+.text_kuang dl{
+    text-align: left;
+    font-size:28px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#020202;
+    line-height:48px;
+}
+.text_kuang dt{
+    text-align: center;
+    font-weight:bold;
+    font-size: 40px;
+    padding-bottom: 145px;
+    color: #6C5B28;
+}
+.text_kuang dd{
+    padding-left: 43px;
+    padding-right: 43px;
+}
+.confirmBtn{
+    width: 559px;
+    height: 88px;
+    display: inline-block;
+    background: url(../image/btn_download_ok.png) no-repeat;
+    background-size: 559px 88px;
+    margin: 21px 40px 49px 39px;
+}
+
+
+
+.mask{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    display: none;
+}
+
+.mask img{
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}

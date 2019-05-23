@@ -1,0 +1,121 @@
+
+html,bady{
+    width: 100%;
+    height: 100%;
+    background: #EFEFF4;
+    overflow: hidden;
+}
+
+header{
+    height: .62rem;
+}
+
+header p{
+    width: 3.41rem;
+    margin: .13rem 0 0 .17rem;
+    font: .11rem/.15rem "";
+    color: #999;
+    text-indent: 1em;
+}
+
+main{
+    height: 1.77rem;
+    width: 100%;
+    background: #fff;
+    margin-bottom: .11rem;
+}
+
+
+main textarea{
+    width: 100%;
+    height: 100%;
+    padding: .14rem 0 0 .15rem;
+    font-size: .14rem;
+    color: #999;
+}
+
+
+footer{
+    overflow: hidden;
+}
+
+footer .contact{
+    width: 100%;
+    height: .73rem;
+    background: #fff;
+    overflow: hidden;
+}
+
+footer .contact p{
+    font-size: .14rem;
+    color: #666;
+    margin: .13rem 0 0 .15rem;
+}
+
+footer .contact .contactYes{
+    float: left;
+    margin:.13rem 0 0 .15rem;
+    height: .14rem;
+}
+
+footer .contact .contactYes img{
+    display: inline-block;
+    width: .12rem;
+    height: .13rem;
+}
+
+footer .contact .contactYes span{
+    font: .14rem/.14rem "";
+    margin-left: .04rem;
+    color:#999;
+    display: inline-block;
+}
+
+footer .contact .contactNo{
+    float: left;
+    margin:.13rem 0 0 .45rem;
+}
+
+footer .contact .contactNo img{
+    
+    display: inline-block;
+    width: .12rem;
+    height: .13rem;
+}
+
+footer .contact .contactNo span{
+    font: .14rem/.14rem "";
+    margin-left: .04rem;
+    color:#999;
+    display: inline-block;
+}
+
+footer .timer{
+    font-size: .14rem;
+    color: #999;
+    margin: .1rem 0 0 .15rem;
+}
+
+
+.footButton{
+    width: 2.86rem;
+    height: .43rem;
+    color: #020202;
+    font: .18rem/.43rem "";
+    text-align: center;
+    background: url("../image/footButton.png");
+    background-size: 100%;
+    margin: .15rem 0 0 .45rem;
+    
+}
+
+.buttonBox{
+    width: 100%;
+    height:  .74rem;
+    box-shadow:0 0 10px #333;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    background: #fff;
+}

@@ -1,0 +1,136 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+
+main .main-top{
+    width: 100%;
+    height: .55rem;
+    margin: .35rem 0 0 0;
+    text-align: center;
+}
+
+main .main-top span{
+    font-size: .16rem;
+    color: #EFEEEE;
+}
+
+main .main-top p{
+    font-size: .3rem;
+    color: #FEFEFE;
+    margin-top: .16rem;
+}
+
+
+main .main-details{
+    width: 3.21rem;
+    height: 2.21rem;
+    margin: .66rem 0 0 .26rem;
+}
+
+main .main-details h3{
+    font-size: .14rem;
+    color: #FFFBFB;
+}
+
+main .main-details .details-place{
+    margin-top: .13rem;
+    width: 100%;
+    height: .49rem;
+    border-bottom: 1px solid #eee;
+}
+
+main .main-details .details-place span{
+    float: left;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+main .main-details .details-place i{
+    float: right;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+
+
+
+main .main-details .details-time{
+    width: 100%;
+    height: .49rem;
+    border-bottom: 1px solid #eee;
+}
+
+main .main-details .details-time span{
+    float: left;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+main .main-details .details-time i{
+    float: right;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+
+
+main .main-details .details-number{
+    width: 100%;
+    height: .49rem;
+    border-bottom: 1px solid #eee;
+}
+
+main .main-details .details-number span{
+    float: left;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+main .main-details .details-number i{
+    float: right;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+
+
+main .main-details .details-tel{
+    width: 100%;
+    height: .49rem;
+}
+
+main .main-details .details-tel span{
+    float: left;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+main .main-details .details-tel i{
+    float: right;
+    font: .14rem/.49rem "";
+    color: #FFFBFB;
+}
+
+
+main .main-button{
+    width: 2.86rem;
+    height: .43rem;
+    margin: 1.4rem 0 0 .44rem;
+    background-image: url('../image/payment.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+main .main-button span{
+    font: .22rem/.43rem "";
+    color: #000;
+}

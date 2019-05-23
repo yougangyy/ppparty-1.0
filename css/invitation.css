@@ -1,0 +1,261 @@
+
+
+
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #EFEFF4;
+}
+
+header{
+    text-align: center;
+    overflow: hidden;
+    padding-top: .19rem;
+    background: #fff;
+}
+header span{
+    font-size: .14rem;
+    color: #333;
+}
+
+header p{
+    font-size: .14rem;
+    color: #333;
+    margin-top: .18rem;
+    letter-spacing:3px;
+}
+
+header p i{
+    font-size: .25rem;
+    color: #D3B75B;
+}
+
+#button{
+    width: .93rem;
+    height: .35rem;
+    background: url("../image/apply.png");
+    background-size: 100%;
+    margin: .22rem auto 0;
+    font: .15rem/.35rem "";
+    color: #D0B459;
+}
+
+
+main{
+    
+}
+
+main .mainTop{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font: .15rem/.35rem "";
+    color: #999;
+    background: #fff;
+}
+
+main .mainTop .active{
+    color: #CDB158;
+}
+
+main .mainTop .active i{
+    display: block;
+    width: .44rem;
+    height: .02rem;
+    margin-left: .07rem;
+    background: #CDB158;
+}
+
+main .mainBox{
+}
+
+main .mainBox ul{
+    height: 6.52rem;
+    overflow: auto;
+    margin-top: .11rem;
+}
+
+main .mainBox ul li{
+    width: 100%;
+    height: .8rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+main .mainBox ul li p{
+    font: .18rem/.8rem "";
+    text-align: center;
+}
+
+main .mainBox ul li img{
+    float: left;
+    width: .5rem;
+    height: .5rem;
+    margin: .16rem 0 0 .17rem;
+}
+
+main .mainBox ul li span{
+    float: left;
+    font: .14rem/.8rem "";
+    color: #000;
+    margin-left: .11rem;
+}
+
+main .mainBox ul li i{
+    float: right;
+    font: .14rem/.8rem "";
+    color: #D0B459;
+    margin-right: .4rem;
+}
+
+
+main .mainBox .friend{
+    display: block;
+}
+
+main .mainBox .notLanded{
+    display: none;
+}
+
+.footButton{
+    width: 2.86rem;
+    height: .43rem;
+    color: #020202;
+    font: .18rem/.43rem "";
+    text-align: center;
+    background: url("../image/footButton.png");
+    background-size: 100%;
+    margin: .15rem 0 0 .45rem;
+    
+}
+
+.buttonBox{
+    width: 100%;
+    height:  .74rem;
+    box-shadow:0 0 10px #333;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    background: #fff;
+}
+
+
+.error{
+    height: .42rem;
+    border-radius: .21rem;
+    background: #4C4C4C;
+    opacity: .9;
+    position: absolute;
+    top: 4.1rem;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+    z-index: 100000;
+  }
+  
+  
+  .error img{
+    float: left;
+    width: .19rem;
+    height: .19rem;
+    margin: .1rem .08rem 0 .17rem;
+  }
+  .error span{
+    float: left;
+    font: .16rem/.42rem "";
+    margin-right: .19rem;
+    color: #000;
+  }
+
+
+  .code{
+    width: .56rem;
+    height: .48rem;
+    background: url("../image/codeImg.png");
+    background-size: 100%;
+    position: absolute;
+    bottom: .91rem;
+    right: .2rem;
+  }
+  
+  .fiame{
+    width: 2.94rem;
+    height: 2.76rem;
+    background: url("../image/codeBack.png");
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: .74rem;
+    left: 0;
+    margin: auto;
+    border-radius:10px;
+    text-align: center;
+    display: none;
+  }
+
+  .fiame i{
+      display: block;
+      margin-top: .28rem;
+      font-size: .15rem;
+  }
+
+  .fiame .sendCode{
+      display: block;
+      margin-top: .14rem;
+      font-size: .14rem;
+      color: #999;
+  }
+  
+  .fiame .textCode{
+    display: inline-block;
+    width: 1.92rem;
+    height: .69rem;
+    margin-top: .2rem;
+    font: .36rem/.69rem "";
+    background: url("../image/codeText.png");
+    background-size: 100%;
+  }
+
+  .fiame img{
+    display: block;
+    width: .23rem;
+    height: .22rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -0.52rem;
+}
+
+  
+  #buttonCodde{
+    position: absolute;
+    bottom: .25rem;
+    left: .45rem;
+    width: 2.06rem;
+    height: .39rem;
+    /* height: 20px; */
+    font: .15rem/.39rem "";
+    background: url("../image/codeButton.png");
+    background-size: 100%;
+    outline: none;
+    border-color: transparent;
+    box-shadow:none;
+    border:none;
+  }
+  
+
+  .mask{
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: .24;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+  }

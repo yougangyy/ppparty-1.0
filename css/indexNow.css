@@ -1,0 +1,169 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: .41rem;
+}
+
+header img {
+    float: left;
+    width: .36rem;
+    height: .51rem;
+    color: #fff;
+    font-size: .17rem;
+}
+
+header span {
+    float: left;
+    margin: .12rem 0 0 1.31rem;
+    font-size: .18rem;
+    color: #fff;
+}
+
+
+main {
+    width: 3.06rem;
+    height: 100%;
+    margin: .48rem 0 0 .35rem;
+    position: relative;
+}
+
+main .party-val {
+    height: .59rem;
+    color: #fff !important;
+    opacity: 1 !important;
+    font-size: .2rem;
+}
+
+
+main input {
+    width: 100%;
+    height: .49rem;
+    border: none;
+    background: none;
+    color: #fff !important;
+    opacity: .51 !important;
+    border-bottom: 1px solid #222567;
+    font-size: .15rem;
+}
+
+
+.party-val::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.place-val::-webkit-input-placeholder {
+    color: #fff ;
+}
+
+.time-val::-webkit-input-placeholder {
+    color: #fff ;
+}
+
+.tel-val::-webkit-input-placeholder {
+    color: #fff ;
+}
+
+main .namber {
+    width: 100%;
+    height: .49rem;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #222567;
+}
+
+main .namber span {
+    color: #fff;
+    opacity: .51;
+    font-size: .14rem;
+    margin-top: .15rem;
+    float: left;
+}
+
+main .namber .button-left {
+    float: right;
+    width: .48rem;
+    height: .44rem;
+}
+
+main .namber b {
+    float: right;
+    font-size: .14rem;
+    color: #EAB516;
+    margin: .13rem 0 0 0;
+}
+
+main .namber .button-right {
+    float: right;
+    width: .48rem;
+    height: .44rem;
+}
+
+
+main .price {
+    width: 100%;
+    height: .49rem;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #222567;
+    font-size: .15rem;
+}
+
+main .price span {
+    color: #fff;
+    opacity: .51;
+    font-size: .14rem;
+    margin-top: .15rem;
+    float: left;
+}
+
+main .price b {
+    float: right;
+    width: 1.05rem;
+    height: .36rem;
+    font-size: .14rem;
+    color: #EAB516;
+    margin: .13rem 0 0 0;
+    text-align: center;
+}
+
+
+main .button {
+    width: 1.53rem;
+    line-height: .42rem;
+    border: 1px solid #E9B60F;
+    border-radius: .21rem;
+    margin: .78rem 0 0 .77rem;
+    background: none;
+    color: #E9B60F;
+    font-size: .14rem;
+    text-align: center;
+}
+
+
+
+
+
+.error{
+    width: 100%;
+    height: .3rem;
+    position: absolute;
+    top: -0.3rem;
+    left: 0;
+    background: #fff;
+    text-align: center;
+    display: none;
+}
+
+.error span{
+    font: .14rem/.3rem "";
+
+}

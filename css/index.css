@@ -1,0 +1,259 @@
+/* pages/register/register.wxss */
+
+
+body{
+  height: 100%;
+  width: 100%;
+  background-image: url('../image/index-background.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+
+
+.userinfo-avatar {
+  width: .63rem;
+  height: .63rem;
+  margin: .4rem 0 0 1.54rem;
+}
+
+.userinfo-nickname {
+  width: 2.35rem;
+  margin: .24rem 0 0 .74rem;
+  text-indent: 2em;
+  font-size: .14rem;
+  display: block;
+  color: #aaa;
+}
+
+.register-table {
+  width: 2.79rem;
+  height: 100%;
+  margin: .34rem 0 0 .47rem;
+}
+
+.table-tel {
+  width: 100%;
+  height: .39rem;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+.table-tel img {
+  float: left;
+  display: block;
+  width: .12rem;
+  height: .19rem;
+  margin: .11rem .25rem 0 .05rem;
+}
+
+.table-tel input {
+  float: left;
+  height: 100%;
+  width: 40%;
+  font-size: .14rem;
+  background: none;
+  color: #999;
+}
+
+.table-verification {
+  width: 100%;
+  height: .39rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-verification img {
+  float: left;
+  display: block;
+  width: .14rem;
+  height: .16rem;
+  margin: .12rem .22rem 0 .06rem;
+}
+
+.table-verification input {
+  float: left;
+  height: 100%;
+  width: 40%;
+  font-size: .14rem;
+  color: #999;
+  background: none;
+}
+
+.table-verification span {
+  float: right;
+  margin-top: .14rem;
+  font-size: .13rem;
+  color: #E9B60C;
+}
+
+
+.table-password {
+  width: 100%;
+  height: .39rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-password .password-left {
+  float: left;
+  display: block;
+  width: .13rem;
+  height: .17rem;
+  margin: .12rem .22rem 0 .06rem;
+
+}
+
+.table-password input {
+  float: left;
+  height: 100%;
+  width: 40%;
+  font-size: .14rem;
+  color: #999;
+  background: none;
+
+}
+
+.table-password .password-right {
+  float: right;
+  width: .14rem;
+  height: .1rem;
+  display: block;
+  margin-top: .13rem;
+}
+
+
+
+
+.register-button {
+  width: 2.82rem;
+  line-height: .4rem;
+  border: none;
+  background: none;
+  margin-top: .36rem;
+  color: #E9B60C;
+  text-align: center;
+  background-image: url('../image/register-button.png');
+  background-size: 100%;
+  font-size: .18rem;
+  background-repeat: no-repeat;
+}
+
+
+.download-text {
+  font-size: .15rem;
+  margin: .71rem 0 .6rem .7rem;
+  color: #fff;
+}
+
+.download-text i {
+  color: #E9B60C;
+}
+
+
+.error{
+  height: .42rem;
+  border-radius: .21rem;
+  background: #4C4C4C;
+  opacity: .9;
+  position: absolute;
+  top: 4.1rem;
+  left: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+
+.error img{
+  float: left;
+  width: .19rem;
+  height: .19rem;
+  margin: .1rem .08rem 0 .17rem;
+}
+.error span{
+  float: left;
+  font: .16rem/.42rem "";
+  margin-right: .19rem;
+  color: #000;
+}
+
+
+  /* 判断是微信打开时候的 微信弹框 */
+  .weixin-tip {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    /* filter: alpha(opacity=80); */
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .weixin-tip p {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 14%;
+    padding: 0 5%;
+  }
+
+/* ios下载提示 */
+.kuangbox{
+    width: 750px;
+    height: 100%;
+    display: none;
+}
+.kuangblock{
+    width: 750px;
+    height: 100%;
+    background:rgba(0,0,0,1);
+    opacity:0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.kuang{
+    width: 638px;
+    height: 750px;
+    display: inline-block;
+    background: url(../image/bg_download.png) no-repeat;
+    background-size: 638px 750px;
+    position: absolute;
+    top: 164px;
+    left: 56px; 
+}
+.text_kuang{
+    width: 638px;
+    height: 750px;
+    padding-top: 170px;
+}
+.text_kuang dl{
+    text-align: left;
+    font-size:28px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:rgba(68,75,166,1);
+    line-height:48px;
+}
+.text_kuang dt{
+    text-align: center;
+    font-weight:bold;
+    font-size: 32px;
+}
+.text_kuang dd{
+    padding-left: 43px;
+}
+.confirmBtn{
+    width: 559px;
+    height: 88px;
+    display: inline-block;
+    background: url(../image/btn_download_ok.png) no-repeat;
+    background-size: 559px 88px;
+    margin: 50px 40px 49px 39px;
+}
+
+
